@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  <Joe Grotto> -- <Founder> -- <@HeirCompany>
+
+# THANKS
+
+  <Heir Company>
+
+# TECHNOLOGY COLOPHON
+  MDB WordPress: Material Design Bootstrap Theme
+  HTML5, CSS3, JS

@@ -1,0 +1,355 @@
+.hr-lgt {
+    background-color: #fff;
+    height: 0.5px;
+}
+
+.hr-m {
+    margin-left: 25%;
+    margin-right: 25%;
+     @media only screen and (max-width: 768px) {
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+    
+}
+
+.light-blue-skin {
+    .md-pills.pills-primary .nav-item .nav-link.active {
+      background-color: $light-blue-skin-primary-color !important;
+    }
+}
+
+.pink-skin {
+    .md-pills.pills-primary .nav-item .nav-link.active {
+      background-color: $pink-skin-primary-color !important;
+    }
+}
+
+.deep-purple-skin {
+    .md-pills.pills-secondary .nav-item .nav-link.active {
+      background-color: $deep-purple-skin-btn-secondary !important;
+    }
+}
+
+
+.subtext-header {
+     @media only screen and (max-width: 415px) {
+        font-size: 1.5rem;
+    }
+}
+
+.mb-1-half {
+    margin-bottom: 1.4rem;
+}
+
+
+.intro {
+    .hr-light, h3 {
+        margin-left: 11%;
+        margin-right: 11%;
+    }
+}
+
+// Header
+.intro-page .navbar:not(.top-nav-collapse) { 
+	background:transparent !important;
+	box-shadow:none; 
+}
+
+// add shadow to .top-nav-collapse
+.top-nav-collapse {
+	@extend .z-depth-1;
+}
+
+@media (max-width: 768px) { 
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$grey-skin-navbar !important;
+    }  
+}
+
+@media (max-width: 768px) { 
+    .navy-blue-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$navy-blue-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .white-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$white-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .black-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$black-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .pink-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$pink-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .deep-purple-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$deep-purple-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .cyan-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$cyan-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .indigo-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$indigo-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .light-blue-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$light-blue-skin-navbar !important; 
+    }
+}
+
+@media (max-width: 768px) { 
+    .mdb-skin.intro-page .navbar:not(.top-nav-collapse) {
+        background:$mdb-skin-navbar !important; 
+    }
+}
+
+
+
+/* Animations */
+.wow {
+  visibility: hidden;
+}
+
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view {
+	height: 100%;
+}
+
+
+
+
+
+/*Intro*/
+
+header {
+	.view {
+		background-position:center;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		@include background-size(cover);
+	}
+}
+
+
+
+/* Footer */
+footer.page-footer {
+    h2 {
+        font-weight: 600;
+        font-size: 3rem;
+    }
+}
+
+/* Scroll box */
+.scroll-box {
+    @media only screen and (max-width: 420px) {
+    position: relative;
+        .scrollspy-example {
+        position: relative;
+        overflow-y: scroll;
+        height: 430px;
+        }
+    }
+}
+
+/* Large streak */
+.streak-large {
+    h1 {
+        font-weight: 500;
+    }
+    height: 350px;
+    @media only screen and (max-width: 450px) {
+        height: 600px;
+    }
+}
+
+.font-big {
+    font-size: 3rem;
+}
+
+/* Outline buttons */
+.btn-outline-stylish {
+    border: 2px solid #4B515D;
+    color: #4B515D!important;
+    background-color: transparent;
+}
+
+.btn-outline-amber {
+    border: 2px solid #ff9800;
+    color: #ff9800!important;
+    background-color: transparent;
+}
+
+.btn-outline-coral {
+    border: 2px solid #FF6D33;
+    color: #FF6D33!important;
+    background-color: transparent;
+}
+
+.btn-outline-olive {
+    border: 2px solid #B2A200;
+    color: #B2A200!important;
+    background-color: transparent;
+}
+
+.btn-outline-cyan {
+    border: 2px solid #00bcd4;
+    color: #00bcd4!important;
+    background-color: transparent;
+}
+
+.btn-outline-light-green {
+    border: 2px solid #8bc34a;
+    color: #8bc34a!important;
+    background-color: transparent;
+}
+
+.btn-outline-deep-orange {
+    border: 2px solid #bf360c;
+    color: #bf360c!important;
+    background-color: transparent;
+}
+
+.btn-outline-indigo {
+    border: 2px solid #3f51b5;
+    color: #3f51b5!important;
+    background-color: transparent; 
+}
+
+.btn-outline-teal {
+    border: 2px solid #009688;
+    color: #009688!important;
+    background-color: transparent;
+}
+
+
+.btn-outline-pink {
+    border: 2px solid #e91e63;
+    color: #f06292!important;
+    background-color: transparent;
+}
+
+/* Icon padding*/
+.btn {
+    .fa {
+        padding-right: 0.5rem;
+    }
+}
+
+/* Features */
+.features-5 {
+    h3 {
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+}
+
+/* Font size of intro title */
+.brand-name {
+    font-size: 5rem;
+    @media only screen and (max-width: 415px) {
+        font-size: 3rem;
+    }
+}
+
+/* Up and bold second title */
+.font-up {
+    text-transform: uppercase;
+    }
+    
+.font-bold {
+    font-weight: 500;
+}
+
+
+.about {
+    li:before
+        {
+            content: '✔';   
+            margin-left: -1em;
+            margin-right: 0.5rem;
+        }
+
+        ul
+        {
+           padding-left: 20px;
+           text-indent: 2px;
+           list-style: none;
+           list-style-position: outside;
+        }
+}
+
+.pastel-pink {
+    color: #ad495c;
+}
+
+.modal-photo {
+    max-width: 1050px;
+}
+
+/* Green color */
+.div-color-1 {
+    .divider-new {
+        &:before {
+            height: 2px;
+            background: #145b5f;
+        }
+        &:after {
+            height: 2px;
+            background: #145b5f;
+        }
+        i {
+            color: #145b5f;
+        }
+        margin-left: 25%;
+        margin-right: 25%;
+        @media only screen and (max-width: 768px) {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+}
+
+/* Blue color */
+.div-color-2 {
+    .divider-new {
+        &:before {
+            height: 2px;
+            background: #3d799c;
+        }
+        &:after {
+            height: 2px;
+            background: #3d799c;
+        }
+        i {
+            color: #3d799c;
+        }
+        margin-left: 25%;
+        margin-right: 25%;
+        @media only screen and (max-width: 768px) {
+            margin-left: 10%;
+            margin-right: 10%;
+    }
+}
+}
+    

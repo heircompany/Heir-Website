@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+    <ShortName>Heir Company</ShortName>
+    <Description>A Chicago Digital Agency</Description>
+    <Url type="text/html" method="get" template="http://search.heir.company/search/xml?q={searchTerms}"/>
+    <Image width="16" height="16">https://heir.company/opensearch-logo.png</Image>
+    <InputEncoding>UTF-8</InputEncoding>
+    <SearchForm>http://search.heir.company/</SearchForm>
+</OpenSearchDescription>

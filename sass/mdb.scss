@@ -1,0 +1,237 @@
+/*!
+ * Material Design for Bootstrap 4
+ * Landing Page Template
+ * Version: Landing Page Template 4.1.0
+ *
+ * Compatible with MDB Pro 4.3.0
+ *
+ * Copyright: Material Design for Bootstrap
+ * http://mdbootstrap.com/
+ *
+ * Read the license: http://mdbootstrap.com/license/
+ *
+ *
+ * Documentation: http://mdbootstrap.com/
+ *
+ * Getting started: http://mdbootstrap.com/getting-started/
+ *
+ * Tutorials: http://mdbootstrap.com/bootstrap-tutorial/
+ *
+ * Templates: http://mdbootstrap.com/templates/
+ *
+ * Support: http://mdbootstrap.com/forums/forum/support/
+ *
+ * Contact: office@mdbootstrap.com
+ *
+ * Atribution: Animate CSS, Twitter Bootstrap, Materialize CSS, Normalize CSS, Waves JS, WOW JS, Toastr, Chart.js , Hammer.js
+ *
+ */
+
+@charset "UTF-8";
+
+// MDB Framework //
+
+// Mixins
+@import "mdb/free/data/prefixer";
+@import "mdb/free/data/mixins";
+
+// Variables
+@import "mdb/free/data/colors";
+@import "mdb/free/data/variables-b4";
+@import "mdb/free/data/variables";
+
+//Global
+@import "mdb/free/global";
+
+// MDB Free
+@import "mdb/free/roboto";
+@import "mdb/free/typography";
+@import "mdb/free/animations";
+@import "mdb/free/waves";
+@import "mdb/free/helpers";
+@import "mdb/free/buttons";
+@import "mdb/free/forms-basic";
+@import "mdb/free/cards-basic";
+@import "mdb/free/navbars";
+@import "mdb/free/hover-effects";
+@import "mdb/free/footer";
+@import "mdb/free/carousels-basic";
+
+// MDB Premium
+@import "mdb/pro/forms-pro";
+@import "mdb/pro/tabs";
+@import "mdb/pro/msc";
+@import "mdb/pro/progress";
+@import "mdb/pro/accordion";
+@import "mdb/pro/buttons-pro";
+@import "mdb/pro/social-buttons";
+@import "mdb/pro/cards-pro";
+@import "mdb/pro/dropdowns-pro";
+@import "mdb/pro/light-box";
+@import "mdb/pro/navbars-pro";
+@import "mdb/pro/carousels-pro";
+@import "mdb/pro/modals-pro";
+@import "mdb/pro/scrollspy";
+@import "mdb/pro/animations-pro";
+@import "mdb/pro/skins";
+@import "mdb/pro/parallax";
+@import "mdb/pro/stepper";
+
+// SECTIONS
+@import "mdb/pro/sections/pricing";
+@import "mdb/pro/sections/testimonials";
+@import "mdb/pro/sections/features";
+@import "mdb/pro/sections/team";
+@import "mdb/pro/sections/form-sets";
+@import "mdb/pro/sections/templates";
+
+@import "mdb/landing-page/style";
+
+
+// PORTFOLIO STYLES
+
+// General styles
+
+.full-height,
+.full-height body,
+.full-height header,
+.full-height header .view {
+	height: 100%;
+}
+
+// Header
+.intro-page .navbar:not(.top-nav-collapse) {
+	background:transparent !important;
+	box-shadow:none;
+}
+
+// add shadow to .top-nav-collapse
+.top-nav-collapse {
+	@extend .z-depth-1;
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$grey-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$navy-blue-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$white-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$black-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$pink-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$deep-purple-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$cyan-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$indigo-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$light-blue-skin-navbar !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro-page .navbar:not(.top-nav-collapse) {
+        background:$mdb-skin-navbar !important;
+    }
+}
+
+/*Intro*/
+
+header {
+	.view {
+		background-position:center;
+		background-attachment:fixed;
+		background-repeat:no-repeat;
+		@include background-size(cover);
+	}
+}
+
+.intro {
+	.intro-heading {
+		font-size:4.25rem;
+		font-weight:600;
+	}
+
+	.intro-subtext {
+		font-size:1.5rem;
+	}
+	li {
+		list-style-type:none;
+	}
+}
+
+// timetable
+
+.timetable {
+	th, td {
+		vertical-align: middle;
+	}
+	.btn {
+		margin:0;
+	}
+}
+
+// skills table
+
+ul.skills-table {
+	li.list-group-item {
+        justify-content: center;
+        align-items: center;
+		border-width:1px 0;
+		border-color:rgba(0,0,0,.12);
+		&:first-child {
+			border-top-width:0;
+		}
+
+	}
+}
+
+.inline-list {
+	li {
+		display:inline-block;
+	}
+}
+
+.title-big {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.font-up {
+    text-transform: uppercase;
+}

@@ -1,0 +1,104 @@
+<!-- contacts -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "@id":"#organization",
+  "url": "https://heir.company",
+  "logo": "https://heir.company/img/heir-company-logo.png",
+  "contactPoint": [{
+    "telephone": "+1-630-386-2219",
+    "contactType": ["sales", "customer support", "billing support", "bill payment", "reservations"],
+    "contactOption": [
+      "HearingImpairedSupported",
+      "TollFree"
+    ],
+    "areaServed": ["US", "CA", "MX", "CN", "HK"]
+  }]
+}
+</script>
+
+
+
+
+
+
+<!-- schema.org markup as JSON LD -->
+      <script type="application/ld+json">   {
+      "@context":"http://schema.org",
+      "@type":"WebSite",
+      "@id":"#website",
+      "url":"https://heir.company/",
+      "name":"Heir Company: A Chicago Digital Agency",
+      "potentialAction":  {
+      "@type":"SearchAction",
+      "target":"https://heir.company/?s={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+
+    <script type="application/ld+json">
+      {
+        "@context":"http://schema.org/",
+      "@type":"Organization",
+      "url":"https://heir.company/",
+      "sameAs": [
+      "https://www.facebook.com/HeirCompany/",
+      "https://www.instagram.com/HeirCompany/",
+      "https://www.linkedin.com/company/HeirCompany/",
+      "https://www.youtube.com/channel/UCUiLJT9R33IqA4GuL1PcmbA/",
+      "https://www.pinterest.com/HeirCompany/",
+      "https://plus.google.com/+HeirCompany/",
+      "https://twitter.com/HeirCompany/"
+    ]}
+    </script>
+
+<script type="application/ld+json">
+    {
+"@context": "http://schema.org",
+"@type": "Organization",
+"url": "http://www.heir.company",
+"logo": "http://www.heir.company/img/heir-company-logo.png"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.heir.company",
+  "logo": "http://www.heir.company/img/heir-company-logo.png",
+  "contactPoint": [{
+    "telephone": "+1-630-386-2219",
+    "contactType": [
+    "sales",
+    "customer service",
+    "technical support",
+    "bill payment"
+    ],
+    "contactOption":  [
+    "TollFree" ,
+    "HearingImpairedSupported"
+    ],
+    "areaServed": [
+      "US",
+      "CA",
+      "MX",
+      "CN",
+      "HK",
+      "SK"
+    ],
+    "availableLanguage": "English",
+  }]
+}
+</script>
+
+
+
+
+
+
+
+
+  
